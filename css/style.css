@@ -1,0 +1,131 @@
+*{
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #777;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul{
+    margin: 0;
+}
+
+.nav li{
+    display: inline;
+    padding: .5em;
+}
+
+.nav a{
+    color: green;
+    padding: .5em;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.main-nav{
+    padding: .2em;
+    text-align: center;
+    font-size: 1.1em;
+    font-size: light;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.main-nav li{
+    padding: 0 5%;
+}
+
+.nav a:hover{
+    background-color: darkcyan;
+    border-radius: 50px;
+}
+.main-header{
+    background-color:white;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    padding-bottom: .8em;
+    background-size: cover;
+
+}
+
+.institue-name{
+    text-align: center;
+    margin: 0;
+    font-size: 2em;
+    font-family: 'Sedgwick Ave' , cursive;
+    padding-top: .2em;
+    font-weight: normal;
+    color: green;
+}
+
+.institue-name-large{
+    font-size: 5em;
+}
+
+.content-section{
+    margin: 1em;
+
+
+}
+
+.container{
+    max-width: 900px;
+    margin:0 auto;
+    padding:0 1.5rem;
+    color: white;
+}
+
+.section-header{
+    font-family: sans-serif;
+    color: olivedrab;
+    font-style: italic ;
+    font-weight: normal;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.edu-img{
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    
+}
+
+.footer-text{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    
+}
+
+.main-footer{
+    background-color: green;
+    color: white;
+    padding: .25em 0;
+ 
+}
+
+.main-footer-container{
+    display: flex;
+    align-items: center;
+    
+}
+
+.main-footer-container ul{
+    flex-grow: 1;
+    text-align: end;
+    
+
+}
+
+.footer-nav li{
+    padding: 0 .5em;
+}
+
+.footer-link{
+    text-decoration: none;
+    
+}
